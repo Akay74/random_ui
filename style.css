@@ -1,0 +1,84 @@
+@media (min-width: 769px) {
+    body{
+        background: #F6F8FC;
+        font-family: "Muli", sans-serif;
+    }
+    
+    .container{
+        max-width: 60%;
+        margin: 5% auto;
+    }
+    
+    .container h1{
+        text-align: center;
+        color: #202842;
+    
+    }
+    
+    #issue{
+        width: 60%;
+        border: none;
+        border-radius: 5px;
+        padding: 16px;
+        margin: 1.25rem 20%;
+        box-sizing: border-box;
+        box-shadow: 0px 3px 8px 1px #ccc;
+    }
+    
+    .select_container{
+        width: 60%;
+        margin: 0px auto 40px;
+    }
+    
+    .select{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px;
+        border-bottom: 1px solid #ccc;
+        font-size: 14px;
+    }
+    
+    #select{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px;
+        font-size: 14px;
+    }
+    
+    
+    .drpdwn{
+        width: 12px;
+        height: 12px;
+    }
+
+    .card_container{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .card{
+        width: 30%;
+        border-radius: 8px;
+        /*margin-bottom: 30px;
+        margin: 0 auto;*/
+    }
+    
+    .card p{
+        font-size: 12px;
+        background-color: #fff;
+        text-align: center;
+        /*margin: 0px 0px 30px;*/
+        padding: 15px;
+        border-radius: 0px 0px 10px 10px;
+        box-shadow: 0px 3px 8px 1px #ccc;
+    }
+    
+    .images{
+        width: 100%;
+        height: 55%;
+        margin-bottom: 0;
+        border-radius: 10px 10px 0px 0px;
+    }
+}
